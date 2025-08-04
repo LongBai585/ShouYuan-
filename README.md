@@ -48,9 +48,9 @@ v1.2.0
     {
       "Name": "凡人",
       "Level": 0,
-      "LifeBonus": 0,            // 突破后寿元增益
-      "BreakthroughReq": 50,     // 突破所需修为百分比
-      "SuccessRate": 1.0         // 突破成功率（0.0-1.0）
+      "LifeBonus": 0,           
+      "BreakthroughReq": 50,     
+      "SuccessRate": 1.0         
     },
     {
       "Name": "炼气",
@@ -63,6 +63,6 @@ v1.2.0
 }
 ```
 ## 反馈
-- 优先-> 共同维护的插件库：https://github.com/UnrealMultiple/TShockPlugin
+- 优先发issued -> 共同维护的插件库：https://github.com/UnrealMultiple/TShockPlugin
 - 次优先：TShock官方群：816771079
 - 大概率看不到但是也可以：国内社区trhub.cn ，bbstr.net , tr.monika.love
