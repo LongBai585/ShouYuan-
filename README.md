@@ -31,7 +31,7 @@ v1.2.0
 | 语法                             | 别名  |       权限       |                   说明                   |
 | -------------------------------- | :---: | :--------------: | :--------------------------------------: |
 | /剩余寿元  | 无 |  shouyuan.player       |    查看当前寿元及境界    |
-| /修仙 查看 | /修仙 |  shouyuan.player | 显示修炼状态与突破事件
+| /修仙 查看 | 无 |  shouyuan.player | 显示修炼状态与突破事件
 | /修仙 修炼 | 无 | shouyuan.player | 消耗寿元进行修炼(+5-15%修为)
 | /修仙 突破 | 无 | shouyuan.player | 尝试突破至下一境界(可能引发天劫)
 | /修仙 转生 | 无 | shouyuan.player | 散功转世(需凡人境+200年寿元)
@@ -63,7 +63,8 @@ v1.2.0
 }
 ```
 ## 反馈
-- 优先-> 共同维护的插件库：https://github.com/UnrealMultiple/TShockPlugin
+- 优先: 共同维护的插件库：https://github.com/UnrealMultiple/TShockPlugin
 - 次优先：TShock官方群：816771079
 
 - 大概率看不到但是也可以：国内社区trhub.cn ，bbstr.net , tr.monika.love
+
