@@ -42,8 +42,8 @@ v1.2.0
 > 配置文件位置： tshock/XiuXianConfig.json 
 ```json
 {
-  "RebirthCost": 200,    
-  "BroadcastBreakthrough": true,
+  "RebirthCost": 200,          
+  "BroadcastBreakthrough": true, 
   "Realms": [
     {
       "Name": "凡人",
