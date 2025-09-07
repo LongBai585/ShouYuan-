@@ -1,7 +1,7 @@
-ShouYuan 寿元插件
-作者: 泷白
-出处: Tshock官方群
-这是一个为 TShock Terraria 服务器设计的修仙插件，基于完美世界修炼体系与星宿流派系统。玩家可以通过修炼提升境界、选择星宿流派、管理寿元，体验完整的修仙玩法
+# ShouYuan 寿元插件
+# 作者: 泷白
+# 出处: Tshock官方群
+# 这是一个为 TShock Terraria 服务器设计的修仙插件，基于完美世界修炼体系与星宿流派系统。玩家可以通过修炼提升境界、选择星宿流派、管理寿元，体验完整的修仙玩法
 
 https://img.shields.io/badge/版本-1.2.2-blue.svg https://img.shields.io/badge/TShock-4.5.0%2B-green.svg https://img.shields.io/badge/授权-MIT-lightgrey.svg
 
@@ -79,4 +79,4 @@ https://img.shields.io/badge/版本-1.2.2-blue.svg https://img.shields.io/badge/
 
 授权协议
 
-本项目采用MIT授权协议，详情请查看LICENSE文件。
+本项目采用MIT授权协议，详情请查看LICENSE文件
