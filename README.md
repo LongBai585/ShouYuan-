@@ -30,36 +30,36 @@
 # 玩家指令
 
 # 语法 别名 权限 说明
-/状态 无 shouyuan.player 查看完整的修仙状态信息
-/修仙 无 shouyuan.player 修仙主命令，包含多个子命令
-/修仙 状态 无 shouyuan.player 查看状态
-/修仙 修炼 无 shouyuan.player 手动修炼，增加修为
-/修仙 突破 无 shouyuan.player 尝试突破到下一境界
-/修仙 转生 无 shouyuan.player 转世重修（需散尽修为）
-/修仙 星宿 无 shouyuan.player 查看星宿流派信息
-/法号 <名称> 无 shouyuan.player 设置个性化法号
-/选择星宿 无 shouyuan.player 选择星宿流派（仅限一次）
-/命座 无 shouyuan.player 查看命座等级和效果
-/散尽修为 确认 无 shouyuan.player 重置境界到凡人（不可逆）
-/反魂 自己 无 shouyuan.player 消耗寿元复活自己（Boss战后）
+| /状态 | 无 | shouyuan.player | 查看完整的修仙状态信息 |
+| /修仙 | 无 | shouyuan.player | 修仙主命令，包含多个子命令 |
+| /修仙 状态 | 无 | shouyuan.player | 查看状态 |
+| /修仙 修炼 | 无 | shouyuan.player | 手动修炼，增加修为 |
+| /修仙 突破 | 无 | shouyuan.player | 尝试突破到下一境界 |
+| /修仙 转生 | 无 | shouyuan.player | 转世重修 (需散尽修为) |
+|/修仙 星宿 | 无 | shouyuan.player | 查看星宿流派信息 |
+| /法号 <名称> | 无 | shouyuan.player | 设置个性化法号 |
+| /选择星宿 | 无 | shouyuan.player | 选择星宿流派 (仅限一次) |
+| /命座 | 无 | shouyuan.player | 查看命座等级和效果 |
+| /散尽修为 确认 | 无 shouyuan.player | 重置境界到凡人 (不可逆) |
+| /反魂 自己 | 无 | shouyuan.player | 消耗寿元复活自己 (Boss战后) |
 
 # 管理员指令
 
 # 语法 别名 权限 说明
-/寿元转生 <玩家名> 无 shouyuan.admin 强制为玩家转生
-/调整寿元 <玩家名> <数值> 无 shouyuan.admin 调整玩家寿元
-/设置服务器名称 <名称> 无 shouyuan.admin 设置服务器显示名称
-/设置聊天ui偏移 <X> <Y> /chatuioffset shouyuan.admin 设置聊天UI位置偏移
-/设置顶部ui偏移 <X> <Y> /topuioffset shouyuan.admin 设置顶部UI位置偏移
-/设置顶部ui刷新间隔 <毫秒> /topuirefresh shouyuan.admin 设置顶部UI刷新频率
-/设置聊天ui刷新间隔 <分钟> /chatuirefresh shouyuan.admin 设置聊天UI刷新频率
-/设置星宿图标 <星宿> <物品ID> /setsignicon shouyuan.admin 设置星宿显示图标
-/添加境界条件 <境界> <Boss> 无 shouyuan.admin 为境界添加突破条件
-/添加境界奖励 <境界> <物品ID> <数量> <前缀> 无 shouyuan.admin 为境界添加突破奖励
-/添加境界buff <境界> <BuffID> <秒数> 无 shouyuan.admin 为境界添加Buff奖励
-/重读修仙 /reloadxiuxian shouyuan.admin 重新加载修仙配置文件
-/仙道重开 确认 无 shouyuan.admin 重置所有玩家境界（慎用）
-/反魂 [玩家名] 无 shouyuan.admin 复活指定或所有灵魂状态玩家
+| /寿元转生 <玩家名> | 无 | shouyuan.admin | 强制为玩家转生 |
+| /调整寿元 <玩家名> <数值> | 无 | shouyuan.admin | 调整玩家寿元 |
+| /设置服务器名称 <名称> | 无 | shouyuan.admin | 设置服务器显示名称 |
+| /设置聊天ui偏移 <X> <Y> | /chatuioffset shouyuan.admin | 设置聊天UI位置偏移 |
+| /设置顶部ui偏移 <X> <Y> | /topuioffset shouyuan.admin | 设置顶部UI位置偏移 |
+| /设置顶部ui刷新间隔 <毫秒> | /topuirefresh shouyuan.admin | 设置顶部UI刷新频率 |
+| /设置聊天ui刷新间隔 <分钟> | /chatuirefresh shouyuan.admin | 设置聊天UI刷新频率 |
+| /设置星宿图标 <星宿> <物品ID> | /setsignicon shouyuan.admin | 设置星宿显示图标 |
+| /添加境界条件 <境界> <Boss> | 无 | shouyuan.admin 为境界添加突破条件 |
+| /添加境界奖励 <境界> <物品ID> <数量> <前缀> | 无 | shouyuan.admin 为境界添加突破奖励 |
+| /添加境界buff <境界> <BuffID> <秒数> | 无 | shouyuan.admin | 为境界添加Buff奖励 |
+| /重读修仙 | /reloadxiuxian | shouyuan.admin | 重新加载修仙配置文件 |
+| /仙道重开 确认 | 无 | shouyuan.admin | 重置所有玩家境界（慎用）|
+| /反魂 [玩家名] | 无 | shouyuan.admin | 复活指定或所有灵魂状态玩家 |
 
 # 配置
 
@@ -227,7 +227,7 @@ v1.0.0
 # 开发者信息
 
 · 作者: 泷白
-· 许可证: MIT License
+· 许可证: GPL-3.0
 
 反馈
 
@@ -238,3 +238,7 @@ v1.0.0
 ---
 
 注意: 此插件会显著改变游戏平衡性，建议在专门的修仙服务器中使用 普通生存服务器请谨慎使用
+
+· 优先发issue -> 共同维护的插件库: https://github.com/UnrealMultiple/TShockPlugin
+· 次优先: TShock官方群: 816771079
+· 国内社区: trhub.cn, bbstr.net, tr.monika.love
